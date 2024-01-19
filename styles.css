@@ -1,1 +1,20 @@
 /* your code */
+.table{
+	border-collapse: collapse;
+	border: 1px solid gray;
+	border-radius: 20px;
+}
+thead{
+	background-color: blue;
+	color: white;
+}
+th{
+	padding: 10px;
+}
+td{
+	width: 100px;
+	padding: 10px 30px
+}
+tr:nth-child(even){
+	background-color: lightgray;
+}
